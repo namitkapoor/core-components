@@ -12,8 +12,8 @@ if ((process.env.BUILD !== 'production')) {
     componentPath = "https://bec1-2610-148-1f02-3000-9c2f-9274-a36c-7596.ngrok.io/vue-apps/";
     serverPath = "https://1ac8-2610-148-1f02-3000-9c2f-9274-a36c-7596.ngrok.io/build/";
 } else {
-    componentPath = "https://resources.realitymedia.digital/vue-apps/";
-    serverPath = "https://resources.realitymedia.digital/core-components/";
+    componentPath = "https://namitkapoor.github.io/vue-apps/";
+    serverPath = "https://namitkapoor.github.io/core-components/";
 }
 
 export default ['index', 'main-room'].map((name, index) => ({
