@@ -440,10 +440,9 @@ let child = {
       
     makeSpriteText: function (node) {
         const sprite = new SpriteText(node.name);
-        sprite.material.depthWrite = true; // make sprite background transparent
+        sprite.material.depthWrite = false; // make sprite background transparent
         sprite.color = node.color;
         sprite.textHeight = 8;
-        console.log(sprite.color)
         return sprite;
     },
 
