@@ -123,7 +123,11 @@ let child = {
             type: "string",
             default: ""
         },
-
+        //Namit test
+        name2: {
+            type: "string",
+            default: ""
+        },
         // synchronize the state across all clients
         isNetworked: {
             type: "boolean",
