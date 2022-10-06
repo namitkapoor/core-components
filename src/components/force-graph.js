@@ -443,6 +443,7 @@ let child = {
         sprite.material.depthWrite = true; // make sprite background transparent
         sprite.color = node.color;
         sprite.textHeight = 8;
+        console.log(sprite.color)
         return sprite;
     },
 
