@@ -123,11 +123,7 @@ let child = {
             type: "string",
             default: ""
         },
-        //Namit test
-        name2: {
-            type: "string",
-            default: ""
-        },
+    
         // synchronize the state across all clients
         isNetworked: {
             type: "boolean",
@@ -174,7 +170,7 @@ let child = {
         // from the original forcegraph-component
         jsonUrl: { type: 'string', default: '' },
 
-        chargeForce: { type: 'number', default: 0 },
+        chargeForce: { type: 'number', default: 1 },
         xForce: { type: 'number', default: 0 },
         yForce: { type: 'number', default: 0 },
         zForce: { type: 'number', default: 0 },
