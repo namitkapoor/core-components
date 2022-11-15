@@ -170,7 +170,7 @@ let child = {
         // from the original forcegraph-component
         jsonUrl: { type: 'string', default: '' },
 
-        chargeForce: { type: 'number', default: 1 },
+        chargeForce: { type: 'number', default: 10 },
         xForce: { type: 'number', default: 0 },
         yForce: { type: 'number', default: 0 },
         zForce: { type: 'number', default: 0 },
